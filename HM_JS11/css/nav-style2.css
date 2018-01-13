@@ -1,0 +1,26 @@
+.nav {
+	width: 130px;
+	font-weight: bold;
+	background-color: #980505;
+	font-family:sans-serif;
+	padding: 0 10px;
+}
+
+	.nav__items {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 200px;
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	.nav__link {
+		text-decoration: none; 
+		color:#f4fdae;
+	}
+
+	.nav__link:hover {
+		color:#f5ea58;
+		border-bottom: 2px solid #f5ea58;
+	}

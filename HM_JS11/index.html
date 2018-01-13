@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/nav-style1.css">
+	<link rel="stylesheet" href="css/pop-up.css">
+</head>
+<body>
+<!-- 
+	Задание 1. Напишите программу, которая проверяет поддержку localStorage в браузере. Результат проверки выведите в консоль.  -->
+	<h2>Task 1</h2>
+
+	<button id="storage">localStorage</button>
+
+
+
+<!-- 	Задание 2. Создайте HTML страницу и два варианта оформления, которые размещены в разных css файлах. На странице сделайте переключатель тем оформления. При выборе оформления – происходит подключение соответствующего файла CSS. Запишите в localStorage выбранную тему оформления. При обновлении страницы загружайте ранее выбранную тему.  -->
+	<h2>Task 2</h2>
+
+	<div class="nav">
+		<ul class="nav__items">
+			<li class="nav__item"><a class="nav__link" href="">HOME</a></li>
+			<li class="nav__item"><a class="nav__link" href="">ABOUT US</a></li>
+			<li class="nav__item"><a  class="nav__link" href="">BLOG</a></li>
+			<li class="nav__item"><a  class="nav__link" href="">PORTFOLIO</a></li>
+			<li class="nav__item"><a  class="nav__link" href="">CONTACT US</a></li>
+		</ul>
+	</div> <!-- end nav -->
+
+	<button id="horizontal-nav">horizontal-nav</button>
+
+	<button id="vertical-nav">vertical-nav</button>
+
+	<hr>
+	
+	<!-- Задание 3. Создайте массив, сохраните его в localStorage. Считайте массив из localStorage, выведите его на экран.
+	 -->
+	 <h2>Task 3</h2>
+
+	<button id="btn-array">Output array</button>
+	<p id="out"></p>
+
+	<!-- Задание 4. Создайте окно, которое всплывает через 4 секунды после загрузки страницы. В окне – опция «Согласен». Если пользователь выбирает данную опцию и закрывает окно – то при последующих обновлениях окно не показывается. Если пользователь не выбрал опцию «Согласен», то повторяйте вывод окна после загрузки. --> 
+	<h2>Task 4 (Pop up)</h2>
+
+	<div id="pop-up">
+		<p>Вы согласны получать уведомления о новых акциях на Вашу электронную почту?</p>
+		<p>Согласен (-а) <input id="inp-check" type="checkbox"></p>
+		<button id="btn-close">Закрыть</button>
+		
+	</div> <!-- end pop-up -->
+
+
+<h2>Task 5</h2>
+<!-- Задание 5. Напишите скрипт, который выводит все содержимое localStorage. -->
+<p id="contentLS"></p>
+
+	<script src='js/1.js'></script>
+</body>
+</html>
